@@ -3,7 +3,7 @@ import React from 'react'
 function Main() {
     return (
         <div className="main">
-            왜 안보일까
+            <h2>메인페이지</h2>
         </div>
     );
 }

@@ -7,7 +7,6 @@ function RootLayout() {
   return (
     <div className="layout">
       <Header></Header>
-      <Main></Main>
       <Footer></Footer>
     </div>
   )
