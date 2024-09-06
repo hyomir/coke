@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/header.css'
+import 'assets/css/header.css'
 import {NavLink} from 'react-router-dom'
 
 function Header() {

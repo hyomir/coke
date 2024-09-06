@@ -1,4 +1,5 @@
 import { createBrowserRouter,createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import './App.css';
 import RootLayout from './components/RootLayout'
 import Home from './components/main/Home'
 import Brand from './components/brand/Brand'
@@ -7,7 +8,6 @@ import Since from './components/history/Since'
 import Story from './components/story/Story'
 import SocialValue from './components/socialValue/SocialValue'
 import Sustain from './components/socialValue/Sustain'
-import './App.css';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
