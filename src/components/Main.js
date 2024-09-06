@@ -1,10 +1,11 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 function Main() {
     return (
-        <div className="main">
-            <h2>메인페이지</h2>
-        </div>
+        <main id='main' className='main'>
+            <Outlet />
+        </main>
     );
 }
 
