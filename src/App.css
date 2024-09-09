@@ -22,6 +22,10 @@ a:hover{
   color: red;
 }
 
+img{
+  display: block;
+}
+
 /* color */
 :root{
   --primary-color:#F20C0C;

@@ -27,12 +27,174 @@
     display: flex;
     gap: 20px;
 }
-
-.card-section{
+/* basic card */
+.basic-card-section{
     width: 413px;
-    background: #E4E5EA;
+    height: 380px;
+    position: relative;
+    background:var(--k100-color);
+}
+.basic-card-section .card-img{
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.basic-card-section .card-text{
+    padding: 12px;
+}
+.card-text h3{
+    padding-bottom: 28px;
+}
+.more-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.line-card-section{
+    width: 100%;
+    padding: 40px 0;
+    box-sizing: border-box;
+    border-top: 2px solid var(--k800-color);
+    border-bottom: 2px solid var(--k800-color);
+}
+.line-card-wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.line-card-content{
+    position: relative;
+    width: 75%;
+    display: flex;
+}
+.deco_cont{
+    width: 25%;
+}
+.line-card-content .card_img{
+    margin-right: 40px;
+}
+.line-card-content .card_text h3{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.line-card-content a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
-.line-card-section{
-    background: #000;
+.deco_text{
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* 임시 */
+.line-card-section img{
+    width: 413px;
+    height: 192px;
+}
+
+/* 서브 타이틀 */
+.subtitle-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 500px;
+    background: var(--k300-color);
+    position: relative;
+    border-radius: 14px;
+}
+.subtitle-section .text{
+position: absolute;
+left: 56px; 
+bottom: 56px;
+}
+
+/* 최신 컨텐츠 */
+.latest-section{
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    border-top: 2px solid var(--k800-color);
+    border-bottom: 2px solid var(--k800-color);
+}
+.latest-wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.latest-title{
+    width: 28%;
+}
+
+.latest-title h2{
+    margin-bottom: 40px;
+}
+.latest-title h3{
+    margin-bottom: 12px;
+}
+
+.latest-img{
+    width: 35%;
+}
+
+.latest-cont{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-cont .cont-wrap span{
+    display: block;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.latest-cont .cont-wrap p{
+    font-weight: bold;
+}
+
+/* tab card */
+.tab-card-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 300px;
+}
+.tab-card{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.tab-cont{
+    box-sizing: border-box;
+    position: relative;
+    background: var(--k100-color);
+}
+.tab-cont h3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.tab-text{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom:0;
+}
+
+.tab-left{
+    width: 49%;
+}
+.tab-right{
+    width: 49%;
 }

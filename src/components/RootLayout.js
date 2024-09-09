@@ -1,3 +1,4 @@
+import 'assets/css/main.css'
 import React from 'react'
 import Header from './main/Header'
 import Footer from './main/Footer'
@@ -6,8 +7,10 @@ import Main from './main/Main'
 function RootLayout() {
   return (
     <div className="layout">
-      <Header></Header>
-      <Main></Main>
+      <div class="layout-wrap">
+        <Header></Header>
+        <Main></Main>
+      </div>
       <Footer></Footer>
     </div>
   )
