@@ -1,3 +1,4 @@
+/* reset */
 html, body{
   margin: 0;
   padding: 0;
@@ -19,4 +20,30 @@ a{
 }
 a:hover{
   color: red;
+}
+
+/* color */
+:root{
+  --primary-color:#F20C0C;
+  --primary-deep-color:#8C0707;
+  --primary-dark-color:#590202;
+  --secondary-color:#048C8C;
+  --secondary-deep-color:#043A40;
+  --k900-color:#1C1C1E;
+  --k800-color:#2F2E33;
+  --k700-color:#6E6D73;
+  --k600-color:#85848A;
+  --k500-color:#B3B4B9;
+  --k400-color:#D0D0D4;
+  --k300-color:#E4E5EA;
+  --k200-color:#F0F1F6;
+  --k100-color:#F5F5F6;
+}
+
+/* font */
+@font-face {
+  font-family: 'TTTtangsbudaejjigaeB';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
 }

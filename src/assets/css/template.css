@@ -1,19 +1,31 @@
 @charset "utf-8";
 
-
 /* SNS */
 .sns-section{
     max-width: 1280px;
     margin: 0 auto;
-    height: 120px;
-    border-radius: 20px;
-    color:#fff;
 }
 .sns-wrap{
     /* 1064px */
     width: 83.125%;
     margin: 0 auto;
-    background: #333;
+    height: 120px;
+    background: var(--k800-color);
+    border-radius: 12px;
+    text-align: center;
+}
+.sns_text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--k100-color);
+}
+
+.sns_text ul{
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 .card-section{
