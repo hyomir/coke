@@ -2,6 +2,7 @@ import React from "react";
 import "assets/css/since.css";
 import BasicCard from 'components/template/BasicCard'
 import TabCard from 'components/template/TabCard'
+import Sns from 'components/template/Sns'
 
 function Since() {
   return (
@@ -169,6 +170,7 @@ function Since() {
       <div className="tab_content">
         <TabCard></TabCard>
       </div>
+      <Sns></Sns>
     </div>
   );
 }

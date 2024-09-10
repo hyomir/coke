@@ -6,5 +6,11 @@
 }
 
 .layout-wrap{
-    padding-bottom: 300px;
+    padding-bottom: 500px;
+}
+
+@media (max-width: 375px){
+    #footer{
+        height: 560px;
+    }
 }

@@ -35,9 +35,7 @@ function Sustain() {
       <div className="sustain_tab_cont">
         <TabCard></TabCard>
       </div>
-      <div className="sustain_sns_cont">
         <Sns></Sns>
-      </div>
     </div>
   );
 }

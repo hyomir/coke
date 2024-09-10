@@ -26,9 +26,7 @@ function SocialValue() {
       <div className="social_tab_cont">
         <TabCard></TabCard>
       </div>
-      <div className="social_sns_cont">
-        <Sns></Sns>
-      </div>
+      <Sns></Sns>
     </div>
   )
 }

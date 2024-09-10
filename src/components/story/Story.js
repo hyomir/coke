@@ -23,9 +23,7 @@ function Story() {
                 <div className="pager">
                 </div>
             </div>
-            <div className="sns_wrap">
-              <Sns></Sns>
-            </div>
+            <Sns></Sns>
     </div>
   )
 }

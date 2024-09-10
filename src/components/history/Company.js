@@ -31,9 +31,7 @@ function Company() {
       <div className="tab_menu_wrap">
       <TabCard></TabCard>
       </div>
-      <div className="sns_wrap">
-        <Sns></Sns>
-      </div>
+      <Sns></Sns>
     </div>
   )
 }
