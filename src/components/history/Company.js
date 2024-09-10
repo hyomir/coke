@@ -2,6 +2,7 @@ import React from 'react'
 import 'assets/css/company.css'
 import TabCard from 'components/template/TabCard'
 import Sns from 'components/template/Sns'
+import LineSimple from 'components/template/LineSimple'
 
 function Company() {
   return (
@@ -20,25 +21,11 @@ function Company() {
         <TabCard></TabCard>
       </div>
       <div className="company_cont">
-        <div className="cont_item cont01">
-          <div className="cont_text">
-            <h3>컨텐츠 제목</h3>
-            <p>컨텐츠 설명입니다.</p>
-            <a href="#none">이동하기</a>
-          </div>
-          <div className="cont_img">
-          <img src="https://placehold.co/413x232" alt="임시이미지" />
-          </div>
+        <div className="cont01">
+          <LineSimple></LineSimple>
         </div>
-        <div className="cont_item cont02">
-          <div className="cont_text">
-            <h3>컨텐츠 제목</h3>
-            <p>컨텐츠 설명입니다.</p>
-            <a href="#none">이동하기</a>
-          </div>
-          <div className="cont_img">
-          <img src="https://placehold.co/413x232" alt="임시이미지" />
-          </div>
+        <div className="cont02">
+        <LineSimple></LineSimple>
         </div>
       </div>
       <div className="tab_menu_wrap">

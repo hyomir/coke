@@ -37,10 +37,10 @@ function Footer() {
                         </li>
                     </ul>
                     <ul className="sns">
-                        <li><a href="#none">유투브</a></li>
-                        <li><a href="#none">X</a></li>
-                        <li><a href="#none">인스타그램</a></li>
-                        <li><a href="#none">페이스북</a></li>
+                        <li><a href="#none"><img src={require("assets/images/footer/icons8-youtube.svg").default} alt="유투브"/></a></li>
+                        <li><a href="#none"><img src={require("assets/images/footer/icons8-twitter.svg").default} alt="트위터"/></a></li>
+                        <li><a href="#none"><img src={require("assets/images/footer/icons8-instagram.svg").default} alt="인스타그램"/></a></li>
+                        <li><a href="#none"><img src={require("assets/images/footer/icons8-facebook.svg").default} alt="페이스북"/></a></li>
                     </ul>
                 </div>
                 <p className='copy'>&copy;The Coca-Cola Compony. 판권소유</p>

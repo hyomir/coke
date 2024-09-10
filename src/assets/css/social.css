@@ -1,0 +1,26 @@
+@charset "utf-8";
+.social_title_cont>h2{
+    text-align: center;
+}
+.social_text_cont{
+    max-width: 1064px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_cont{
+    width: 50%;
+}
+
+.text_cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_tab_cont{
+    max-width: 1064px;
+    margin: 0 auto;
+}

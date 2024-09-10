@@ -16,13 +16,80 @@
 }
 
 .since_text{
-    max-width: 1280px;
+    max-width: 1064px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 .since_text h3{
-    width: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .since_text p{
-    width: 70%;
+    width: 60%;
+}
+
+.new_contents{
+    max-width: 1064px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.new_content .new_left{
+    width: 50%;
+}
+.new_content .new_right{
+    width: 50%;
+}
+
+.new_contents .cont_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cont_list>li>a{
+    display: block;
+}
+
+.before_contents{
+    max-width: 1064px;
+    margin: 0 auto;
+}
+.before_cont_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.before_cont_list>li{
+    width: 50%;
+}
+.before_cont_list>li>a{
+    display: flex;
+}
+
+.related_contents{
+    max-width: 1064px;
+    margin: 0 auto;
+}
+.related_cont_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.related_cont_wrap> .basic-card-section{
+    width: 32%;
+}
+.related_cont_wrap> .basic-card-section img{
+    width: 100%;
+}
+.tab_content{
+    max-width: 1064px;
+    margin: 0 auto;
 }

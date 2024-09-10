@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.sustain_title_cont{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.sustain_title_cont>h2{
+    text-align: center;
+}
+
+.sustain_text_cont{
+    max-width: 1064px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sustain_text_cont .img_cont{
+    width: 50%;
+}
+.sustain_text_cont .text_cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sustain_project_cont{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.project_cont_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sustain_tab_cont{
+    max-width: 1064px;
+    margin: 0 auto;
+}
