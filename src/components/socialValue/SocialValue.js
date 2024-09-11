@@ -20,9 +20,12 @@ function SocialValue() {
         </div>
       </div>
       <div className="social_report_cont">
-        <LineSimple></LineSimple>
-        <LineSimple></LineSimple>
-        <div className='line'></div>
+        <div className="cont01">
+          <LineSimple></LineSimple>
+        </div>
+        <div className="cont02">
+          <LineSimple></LineSimple>
+        </div>
       </div>
       <div className="social_tab_cont">
         <TabCard></TabCard>

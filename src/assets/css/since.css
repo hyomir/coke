@@ -18,9 +18,12 @@
 .since_text{
     max-width: 1064px;
     margin: 0 auto;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    border-bottom: 2px solid var(--k700-color);
 }
 .since_text h3{
     width: 40%;
@@ -31,13 +34,21 @@
 .since_text p{
     width: 60%;
 }
-
+.new_contents h3{
+    margin-bottom: 28px;
+}
 .new_contents{
     max-width: 1064px;
     margin: 0 auto;
+    margin-bottom: 40px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     gap:20px;
+}
+.new_title{
+    display: flex;
+    justify-content: space-between;
 }
 .new_content .new_left{
     width: 50%;
@@ -45,40 +56,78 @@
 .new_content .new_right{
     width: 50%;
 }
-
 .new_contents .cont_list{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.new_contents .cont{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.new_contents .cont_text{
+padding-top: 12px;
+box-sizing: border-box;
+}
+.new_contents .cont_text h4{
+    padding-bottom: 12px;
+}
 .cont_list>li>a{
     display: block;
 }
+.old_cont_wrap{
+    width: 100%;
+    padding: 60px 0;
+    box-sizing: border-box;
+    border-top: 2px solid var(--k700-color);
+    border-bottom: 2px solid var(--k700-color);
+    margin-bottom: 80px;
+}
 
-.before_contents{
+.old_contents{
     max-width: 1064px;
     margin: 0 auto;
+
 }
-.before_cont_list{
+.old_contents h3{
+    margin-bottom: 28px;
+}
+.old_cont_list{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-.before_cont_list>li{
-    width: 50%;
+.old_cont_list h4{
+    padding-bottom: 12px;
+    box-sizing: border-box;
 }
-.before_cont_list>li>a{
+
+.old_cont_list>li{
+    width: 49%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.old_cont_list>li>a{
     display: flex;
 }
-
+.old_cont_list .cont_text{
+    padding: 12px;
+    box-sizing: border-box;
+}
+.old_cont_list>li>a img{
+    display: block;
+}
 .related_contents{
     max-width: 1064px;
     margin: 0 auto;
+    margin-bottom: 80px;
+}
+.related_contents h3 {
+    margin-bottom: 28px;
 }
 .related_cont_wrap{
-    width: 100%;
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
 }
@@ -92,4 +141,5 @@
 .tab_content{
     max-width: 1064px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }

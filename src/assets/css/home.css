@@ -1,6 +1,6 @@
 @charset "utf-8";
-.main_wrap{
-    max-width: 1280px;
+.main_slider{
+    max-width:1280px;
     margin: 0 auto;
     margin-bottom: 80px;
     padding: 20px 0;
@@ -9,20 +9,42 @@
 .main_title{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 36px;
+    margin-bottom: 40px;
 }
 .main_title h2{
-width: 88%;
+    line-height: 48px;
 }
 .main_title .btn{
-width: 10%;
+    display: flex;
+    justify-content: flex-end;
 }
-
 .main_title .btn>button{
-    width: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 0;
+    text-indent: -999px;
+    border: 2px solid var(--k700-color);
+    border-radius: 50%;
+}
+.main_title .btn .stop{
+    background: url('../images/main/pause.svg') no-repeat center center;
+}
+.main_title .btn .play{
+    background: url('../images/main/play.svg') no-repeat 12px center;
 }
 .main_title .btn a{
-    width: 50%;
+    display: block;
+    width: 160px;
+    height: 48px;
+    font-size: 0;
+    text-indent: -999px;
+    box-sizing: border-box;
+    border: 2px solid var(--k700-color);
+    border-radius: 15px;
+    background: url('../images/main/logo_CokePLAY.svg') no-repeat center center;
+    background-size: 70%;
 }
 
 .rec_wrap{

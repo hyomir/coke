@@ -97,7 +97,7 @@
         display: none;
     }
 }
-/* tablet 768px */
+/* tablet 768px 
 @media (max-width:768px) {
     .header_wrap{
         padding-top: 24px;
@@ -166,7 +166,7 @@
     }
 }
 
-/* mobile sm 360px */
+/* mobile sm 360px
 @media (max-width:360px) {
     .header_wrap h1{
         height: 28px;
@@ -176,4 +176,4 @@
     .search button{
         display: block;
     }
-}
+}*/

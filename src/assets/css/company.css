@@ -17,9 +17,12 @@
 .company_text{
     max-width: 1064px;
     margin: 0 auto;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    border-bottom: 2px solid var(--k700-color);
 }
 .company_text h3{
     width: 40%;
@@ -33,10 +36,9 @@
 .company_tab_wrap{
     max-width: 1064px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 .company_cont{
-    max-width: 1064px;
-    margin: 0 auto;
     margin-bottom: 80px;
 }
 
@@ -51,4 +53,5 @@ border-bottom: 2px solid var(--k800-color);
 .tab_menu_wrap{
     max-width: 1064px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }

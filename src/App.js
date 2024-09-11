@@ -1,7 +1,7 @@
 import { createBrowserRouter,createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import './App.css';
 import RootLayout from './components/RootLayout'
-import Home from './components/main/Home'
+import Home from './components/home/Home'
 import Brand from './components/brand/Brand'
 import Company from './components/history/Company'
 import Since from './components/history/Since'

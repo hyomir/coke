@@ -13,7 +13,7 @@ function Sustain() {
         <SubTitle></SubTitle>
         <div className="sustain_text_cont">
           <div className="img_cont">
-          <img src="https://placehold.co/522x284/png" alt="" />
+            <img src="https://placehold.co/522x284/png" alt="" />
           </div>
           <div className="text_cont">
             <p>설명 설명 설명</p>
@@ -21,7 +21,7 @@ function Sustain() {
         </div>
       </div>
       <div className="sustain_project_cont">
-        <h2>코카 - 콜라의 지속 가능성 분야</h2>
+        <h3>코카 - 콜라의 지속 가능성 분야</h3>
         <div className="project_cont_wrap">
           <BasicCard></BasicCard>
           <BasicCard></BasicCard>
@@ -29,8 +29,12 @@ function Sustain() {
         </div>
       </div>
       <div className="sustain_report_cont">
-        <LineSimple></LineSimple>
-        <LineSimple></LineSimple>
+      <div className="cont01">
+          <LineSimple></LineSimple>
+        </div>
+        <div className="cont02">
+          <LineSimple></LineSimple>
+        </div>
       </div>
       <div className="sustain_tab_cont">
         <TabCard></TabCard>

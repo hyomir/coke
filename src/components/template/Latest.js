@@ -1,13 +1,14 @@
 import React from 'react'
 import 'assets/css/template.css'
+import BtnArr from 'components/template/BtnArr'
 
 function Latest() {
     return (
         <div className="latest-section">
             <div className="latest-wrap">
                 <div className="latest-title">
-                    <h2>최신 컨텐츠</h2>
-                    <h3>컨텐츠 큰 제목</h3>
+                    <h3>최신 컨텐츠</h3>
+                    <h4>컨텐츠 큰 제목</h4>
                     <p>컨텐츠 내용</p>
                 </div>
                 <div className="latest-img">
@@ -18,7 +19,7 @@ function Latest() {
                         <span>EP. 01</span>
                         <p>영상 제목</p>
                     </div>
-                    <button type='button'>영상보기</button>
+                    <BtnArr></BtnArr>
                 </div>
             </div>
         </div>
