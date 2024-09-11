@@ -3,6 +3,8 @@
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 80px;
+    padding: 20px 0;
+    box-sizing: border-box;
 }
 .main_title{
     display: flex;

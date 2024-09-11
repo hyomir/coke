@@ -9,14 +9,14 @@ function TabCard() {
                     <h3>제목 텍스트</h3>
                     <div className="tab-text">
                         <p>내용을 작성해주세요.</p>
-                        <button type='button'>이동하기</button>
+                        <a href="#none">이동하기</a>
                     </div>
                 </div>
                 <div className="tab-cont tab-right">
                 <h3>제목 텍스트</h3>
                     <div className="tab-text">
                         <p>내용을 작성해주세요.</p>
-                        <button type='button'>이동하기</button>
+                        <a href="#none">이동하기</a>
                     </div>
                 </div>
             </div>

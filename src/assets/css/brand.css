@@ -40,16 +40,3 @@
     display: block;
     margin-bottom: 20px; 
 }
-.pager{
-    position: relative;
-    margin-bottom: 80px;
-}
-.pager_cont{
-    width: 100px;
-    height: 20px;
-    background: var(--k400-color);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}

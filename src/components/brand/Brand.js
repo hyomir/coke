@@ -29,9 +29,6 @@ function Brand() {
                         <div className="brand"><img src="https://placehold.co/300x300" alt="임시이미지" /></div>
                     </a></li>
                 </ul>
-                <div className="pager">
-                    <div className="pager_cont"></div>
-                </div>
             </div>
             <Sns></Sns>
         </section>

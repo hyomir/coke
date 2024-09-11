@@ -6,7 +6,7 @@ import TabCard from 'components/template/TabCard'
 import Sns from 'components/template/Sns'
 function SocialValue() {
   return (
-    <div className='SocialValue'>
+    <div className='social_value'>
       <div className="social_title_cont">
         <h2>사회 공헌</h2>
         <SubTitle></SubTitle>
@@ -22,6 +22,7 @@ function SocialValue() {
       <div className="social_report_cont">
         <LineSimple></LineSimple>
         <LineSimple></LineSimple>
+        <div className='line'></div>
       </div>
       <div className="social_tab_cont">
         <TabCard></TabCard>

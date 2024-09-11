@@ -208,12 +208,12 @@
 
 .tab-text {
     width: 100%;
-    box-sizing: border-box;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
+    box-sizing: border-box;
 }
 
 .tab-left {
@@ -224,6 +224,14 @@
     width: 49%;
 }
 
+.tab-text a{
+    font-size: 0;
+    text-indent: -999;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url('../images/right-arrow.svg') no-repeat center center;
+}
 /* line simple */
 .line-simple {
     max-width: 1064px;
@@ -231,6 +239,7 @@
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
+    border-top:2px solid var(--k700-color);
     box-sizing: border-box;
 }
 
