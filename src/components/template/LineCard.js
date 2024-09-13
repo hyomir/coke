@@ -6,7 +6,7 @@ function LineCard() {
     return (
         <div className="line-card-section">
             <div className="line-card-wrap">
-                <div className="deco_cont"></div>
+                <div className="deco-cont"></div>
                 <div className="line-card-content">
                     <div className="card-img">
                         <img src="https://placehold.co/413x192" alt="임시이미지" />

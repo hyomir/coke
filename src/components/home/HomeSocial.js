@@ -10,8 +10,15 @@ function HomeSocial() {
                 <div className="social_wrap">
                     <LineCard></LineCard>
                     <div className="social_deco">
-                        <div>
-                            꾸밈을 위한 섹션
+                        <div className="deco_cont">
+                            <div className="cont_01"></div>
+                            <div className="cont_text">
+                                <p>시원하게 즐겨요</p>
+                            </div>
+                            <div className="cont_02"></div>
+                            <div className="cont_03">
+                                <p>코카-콜라 맛있다</p>
+                            </div>
                         </div>
                     </div>
                     <LineCard></LineCard>

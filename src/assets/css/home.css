@@ -3,7 +3,6 @@
     max-width:1280px;
     margin: 0 auto;
     margin-bottom: 80px;
-    padding: 20px 0;
     box-sizing: border-box;
 }
 .main_title{
@@ -30,6 +29,7 @@
 }
 .main_title .btn .stop{
     background: url('../images/main/pause.svg') no-repeat center center;
+    display: none;
 }
 .main_title .btn .play{
     background: url('../images/main/play.svg') no-repeat 12px center;
@@ -46,11 +46,10 @@
     background: url('../images/main/logo_CokePLAY.svg') no-repeat center center;
     background-size: 70%;
 }
-
 .rec_wrap{
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 .rec_wrap h2{
     margin-bottom: 20px;
@@ -58,16 +57,22 @@
 .rec_list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+.rec_list .basic-card-section{
+    width: 32%;
+    margin-bottom: 20px;
+}
+.rec_list .basic-card-section img{
+    width: 100%;
+}
 .latest_wrap{
     margin-bottom: 80px;
 }
-
 .product_wrap{
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 .product_wrap h2{
     margin-bottom: 20px;
@@ -83,13 +88,11 @@
 .top_slider{
     margin-bottom: 64px;
 }
-
 .product_slider .item_wrap{
     display: flex;
     justify-content: center;
     align-items: center;
     }
-
 .item_wrap .item_text{
     width: 68%;
     text-align: center;
@@ -152,7 +155,6 @@
     margin-right: 20px;
     background: var(--k400-color);
 }
-
 .brand_cont .left_cont .cont_01{
     width: 50%;
     height: 336px;
@@ -174,9 +176,60 @@
     margin: 0 auto;
     margin-bottom: 20px;
 }
-
 .social_deco{
+    width: 100%;
+}
+.deco_cont{
     max-width: 1280px;
+    margin: 0 auto; 
     height: 240px;
     text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.social_deco .cont_01{
+    width: 20%;
+    height: 160px;
+    margin-right: 25%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: var(--k200-color);
+}
+.social_deco .cont_text{
+    position: absolute;
+    top: 50px;
+    left: 25%;
+}
+
+.social_deco .cont_02{
+    width: 40%;
+    height: 160px;
+    margin-right: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: var(--k200-color);
+}
+
+.social_deco .cont_03{
+    font-size: 48px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+}
+
+.social_deco .cont_03 p{
+    word-wrap: wrap;
+}
+
+
+/* tablet 768px */
+@media (max-width:768px){
+    .home{
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
 }

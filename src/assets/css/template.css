@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /* 바로가기 버튼 */
 .arr-btn{
     display: block;
@@ -9,6 +10,7 @@
     background: url('../images/right-arrow.svg') no-repeat center center;
     cursor: pointer;
 }
+/* 더보기 버튼 */
 .more-btn{
     display: block;
     width: 120px;
@@ -17,9 +19,11 @@
     line-height: 32px;
     border:2px solid var(--k800-color);
     border-radius: 15px;
+    box-sizing: border-box;
     background: var(--k100-color);
     cursor: pointer;
 }
+
 /* SNS */
 .sns-section {
     max-width: 1280px;
@@ -53,7 +57,6 @@
     width: 413px;
     height: 380px;
     position: relative;
-    background: var(--k100-color);
 }
 .basic-card-section .card-img {
     width: 100%;
@@ -64,13 +67,13 @@
 .basic-card-section .card-text {
     padding: 12px;
 }
-.card-text h3 {
-    padding-bottom: 28px;
+.card-text h4 {
+    padding-bottom: 24px;
 }
 .more-btn {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    right: 12px;
+    bottom: 12px;
 }
 
 /* line card */
@@ -87,28 +90,30 @@
     display: flex;
     position: relative;
 }
+.line-card-wrap .deco-cont {
+    width: 25%;
+}
 .line-card-content {
-    position: relative;
     width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.line-card-content .deco-cont {
-    width: 25%;
-}
+
 .line-card-content .card-img {
-    margin-right: 40px;
+    margin-right: 20px;
 }
-.line-card-content .card-text h3{
-    font-size: 32px;
-    margin-bottom: 40px;
-}
+
 .line-card-section .deco-text {
+    height: 40px;
     font-size: 50px;
     position: absolute;
     top: 0;
     left: 0;
+}
+.line-card-section .btn-wrap{
+    position: absolute;
+    right: 0;
 }
 /* 임시 */
 .line-card-section img {
@@ -239,4 +244,18 @@ left:0;
 }
 .tab-right {
     width: 49%;
+}
+
+@media (max-width:768px){
+    /* SNS */
+.sns-section {
+    max-width: 768px;
+}
+}
+
+@media (max-width:768px){
+    /* SNS */
+.sns-section {
+    max-width: 768px;
+}
 }
