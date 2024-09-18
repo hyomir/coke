@@ -1,6 +1,7 @@
 import React from 'react'
 import 'assets/css/header.css'
 import {NavLink} from 'react-router-dom'
+import DebouncedSearch from './DebouncedSearch'
 
 function Header(){
     return (
@@ -33,13 +34,7 @@ function Header(){
                         </li>
                     </ul>
                 </nav>
-                <div className="search">
-                {/* action 추가 */}
-                    <form name="search" action="" method="get">
-                        <input type="text"/>
-                        <button type='button'></button>
-                    </form>
-                </div>
+                <DebouncedSearch></DebouncedSearch>
                 <div className="hamburger_menu"></div>
                 {/* <div className="closed_menu"></div> */}
             </div>
