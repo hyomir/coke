@@ -21,7 +21,7 @@ function DebouncedSearch() {
   return (
     <>
       <SearchBox value={query} onChange={(e) => setQuery(e.target.value)} />
-      <SearchResults countries={countries} searching={searching} />
+      {/* <SearchResults countries={countries} searching={searching} /> */}
     </>
   );
 }

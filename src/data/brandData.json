@@ -1,116 +1,115 @@
-{
-    "brands":[{
+[{
         "id":"1",
         "name":"코카-콜라",
-        "img":"",
-        "type":"soft"
+        "img":"cocacola.png",
+        "type":"탄산음료"
     },
     {
         "id":"2",
         "name":"스프라이트",
-        "img":"",
-        "type":"soft"
+        "img":"sprite.png",
+        "type":"탄산음료"
     },
     {
         "id":"3",
         "name":"환타",
-        "img":"",
-        "type":"soft"
+        "img":"Fanta.png",
+        "type":"탄산음료"
     }
     ,{
         "id":"4",
         "name":"닥터페퍼",
-        "img":"",
-        "type":"soft"
+        "img":"lDr.pepper.png",
+        "type":"탄산음료"
     }
     ,{
         "id":"5",
         "name":"파워에이드",
-        "img":"",
-        "type":"sport"
+        "img":"Powerade.png",
+        "type":"스포츠"
     }
     ,{
         "id":"6",
         "name":"토레타",
-        "img":"",
-        "type":"sport"
+        "img":"Toreta.png",
+        "type":"스포츠"
     }
     ,{
         "id":"7",
         "name":"씨그램",
-        "img":"",
-        "type":"sport"
+        "img":"Seagram.png",
+        "type":"스포츠"
     },
     {
         "id":"8",
         "name":"지오지아",
-        "img":"",
-        "type":"coffee"
+        "img":"georgia.png",
+        "type":"커피"
     },
     {
         "id":"9",
         "name":"미닛메이드",
-        "img":"",
-        "type":"juice"
+        "img":"MinuteMaid.png",
+        "type":"주스"
     },
     {
         "id":"10",
         "name":"코코팜",
-        "img":"",
-        "type":"juice"
+        "img":"Cocopalm.png",
+        "type":"주스"
     },
     {
         "id":"11",
         "name":"태양의 식후비법 w차",
-        "img":"",
-        "type":"tea"
+        "img":"w.png",
+        "type":"차"
     },
     {
         "id":"12",
         "name":"태양의 마테차",
-        "img":"",
-        "type":"tea"
+        "img":"SunofMate.png",
+        "type":"차"
     },
     {
         "id":"13",
         "name":"캐나다 드라이",
-        "img":"",
-        "type":"soft"
+        "img":"canada-dry.png",
+        "type":"탄산음료"
     },
     {
         "id":"14",
         "name":"써니텐",
-        "img":"",
-        "type":"soft"
+        "img":"Sunny10.png",
+        "type":"탄산음료"
     },
     {
         "id":"15",
         "name":"갈아만든 배",
-        "img":"",
-        "type":["soft","juice"]
+        "img":"Crushed Pear.png",
+        "type":"주스"
     },
     {
         "id":"16",
         "name":"강원 평창수",
-        "img":"",
-        "type":"sport"
+        "img":"Pyungchangsoo.png",
+        "type":"스포츠"
     },
     {
         "id":"17",
         "name":"비타민워터",
-        "img":"",
-        "type":"sport"
+        "img":"Glaceauvitaminwater_re.png",
+        "type":"스포츠"
     },
     {
         "id":"18",
         "name":"vio휘오",
-        "img":"",
-        "type":"sport"
+        "img":"Vio.png",
+        "type":"스포츠"
     },
     {
         "id":"19",
         "name":"과일촌",
-        "img":"",
-        "type":"juice"
+        "img":"fruitvillage.png",
+        "type":"주스"
     }
-    ]}
+    ]

@@ -14,7 +14,7 @@
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.psb li a{
+.psb li p{
     width: 100px;
     padding: 8px;
     text-align: center;
@@ -22,6 +22,11 @@
     border: 2px solid var(--k700-color);
     border-radius: 20px;
     display: block;
+    cursor: pointer;
+}
+.menu_active{
+    background: var(--k700-color);
+    color:var(--k100-color)
 }
 
 .brands_list{
@@ -35,8 +40,14 @@
     box-sizing: border-box;
     margin-bottom: 40px;
 }
+.brands_list li{
+    width: 30%;
+}
 .brands_list li a{
     width: 100%;
     display: block;
     margin-bottom: 20px; 
+}
+.brands_list li a img{
+    width: 100%;
 }

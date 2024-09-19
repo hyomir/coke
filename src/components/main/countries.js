@@ -64,25 +64,7 @@ const countries = [
     { code: 'RU', en: 'Russia', ko: '러시아' },
     { code: 'SA', en: 'Saudi Arabia', ko: '사우디아라비아' },
     { code: 'SD', en: 'Sudan', ko: '수단' },
-    { code: 'SE', en: 'Sweden', ko: '스웨덴' },
-    { code: 'SG', en: 'Singapore', ko: '싱가포르' },
-    { code: 'SK', en: 'Slovakia', ko: '슬로바키아' },
-    { code: 'SY', en: 'Syria', ko: '시리아' },
-    { code: 'TH', en: 'Thailand', ko: '태국' },
-    { code: 'TN', en: 'Tunisia', ko: '튀니지' },
-    { code: 'TR', en: 'Turkey', ko: '터키' },
-    { code: 'TW', en: 'Taiwan', ko: '대만' },
-    { code: 'TZ', en: 'Tanzania', ko: '탄자니아' },
-    { code: 'UA', en: 'Ukraine', ko: '우크라이나' },
-    { code: 'UG', en: 'Uganda', ko: '우간다' },
-    { code: 'US', en: 'United States', ko: '미국' },
-    { code: 'UY', en: 'Uruguay', ko: '우루과이' },
-    { code: 'UZ', en: 'Uzbekistan', ko: '우즈베키스탄' },
-    { code: 'VE', en: 'Venezuela', ko: '베네수엘라' },
-    { code: 'VN', en: 'Vietnam', ko: '베트남' },
-    { code: 'YE', en: 'Yemen', ko: '예멘' },
-    { code: 'ZA', en: 'South Africa', ko: '남아프리카 공화국' },
-    { code: 'ZW', en: 'Zimbabwe', ko: '짐바브웨' },
+
   ];
   
   export async function fetchCountries(query) {

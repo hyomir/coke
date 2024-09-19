@@ -1,51 +1,26 @@
-import React from "react";
+import React,{useState} from "react";
 import "assets/css/brand.css";
 import Sns from "components/template/Sns";
+import brandData from "data/brandData.json"
+import BrandListMenu from "./BrandListMenu";
+import BrandList from "./BrandList";
 
-function Brand() {
+function Brand(){
+    const [item,setItems] = useState(brandData);
+    const brandList =[...new Set(brandData.map((item)=>item.type))]
+    const filterItem = (curBrand) => {
+        const newItem = brandData.filter((newVal) => {
+        return newVal.type === curBrand;
+        });
+        setItems(newItem);
+    };
+    const allItem = brandData.map((item)=>item)
     return (
         <section className="brand">
             <h2>코카 - 콜라 제품</h2>
-            <ul className="psb">
-                <li><a href="#none">모든 제품</a></li>
-                <li><a href="#none">스포츠 드링크</a></li>
-                <li><a href="#none">탄산음료</a></li>
-                <li><a href="#none">커피</a></li>
-                <li><a href="#none">주스</a></li>
-                <li><a href="#none">차</a></li>
-            </ul>
-            <div className="product">
-                <ul className="brands_list">
-                    <li>
-                        <a href="#none">
-                            <div className="brand">
-                                <img src="https://placehold.co/300x300" alt="임시이미지" />
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#none">
-                            <div className="brand">
-                                <img src="https://placehold.co/300x300" alt="임시이미지" />
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#none">
-                            <div className="brand">
-                                <img src="https://placehold.co/300x300" alt="임시이미지" />
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#none">
-                            <div className="brand">
-                                <img src="https://placehold.co/300x300" alt="임시이미지" />
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <p>items : {item.length}</p>
+            <BrandListMenu setItems={setItems} brandList={brandList} filterItem={filterItem} allItem={allItem} />
+            <BrandList item={item}/>
             <Sns></Sns>
         </section>
     );

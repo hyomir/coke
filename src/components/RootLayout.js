@@ -7,7 +7,7 @@ import Main from './main/Main'
 function RootLayout() {
   return (
     <div className="layout">
-      <div class="layout-wrap">
+      <div className="layout-wrap">
         <Header></Header>
         <Main></Main>
       </div>
