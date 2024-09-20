@@ -146,7 +146,6 @@
     height: 500px;
     border-radius: 14px;
     position: relative;
-    background: var(--k300-color);
 }
 .subtitle-section .sub-text{
     position: absolute;
@@ -190,6 +189,10 @@ left:0;
 }
 .latest-img {
     width: 35%;
+}
+.latest-img img{
+    width: 413px;
+    height: 232px;
 }
 .latest-cont {
     width: 35%;

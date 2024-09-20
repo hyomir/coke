@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import "assets/css/brand.css";
 import Sns from "components/template/Sns";
 import brandData from "data/brandData.json"
@@ -15,12 +15,16 @@ function Brand(){
         setItems(newItem);
     };
     const allItem = brandData.map((item)=>item)
+    useEffect(() => {
+        console.log("현재 필터링된 아이템:", item);
+    }, [item]);
+
     return (
         <section className="brand">
             <h2>코카 - 콜라 제품</h2>
             <p>items : {item.length}</p>
             <BrandListMenu setItems={setItems} brandList={brandList} filterItem={filterItem} allItem={allItem} />
-            <BrandList item={item}/>
+            <BrandList item={item} />
             <Sns></Sns>
         </section>
     );

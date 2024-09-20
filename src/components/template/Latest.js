@@ -2,22 +2,22 @@ import React from 'react'
 import 'assets/css/template.css'
 import BtnArr from 'components/template/BtnArr'
 
-function Latest() {
+function Latest({title,content,video_title,img}) {
     return (
         <div className="latest-section">
             <div className="latest-wrap">
                 <div className="latest-title">
                     <h3>최신 컨텐츠</h3>
-                    <h4>컨텐츠 큰 제목</h4>
-                    <p>컨텐츠 내용</p>
+                    <h4>{title}</h4>
+                    <p>{content}</p>
                 </div>
                 <div className="latest-img">
-                    <img src="https://placehold.co/413x232" alt="임시이미지" />
+                    <img src={`${img}`} alt="" />
                 </div>
                 <div className="latest-cont">
                     <div className="cont-wrap">
                         <span>EP. 01</span>
-                        <p>영상 제목</p>
+                        <p>{video_title}</p>
                     </div>
                     <BtnArr></BtnArr>
                 </div>

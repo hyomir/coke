@@ -11,7 +11,9 @@ function HomeSocial() {
                     <LineCard></LineCard>
                     <div className="social_deco">
                         <div className="deco_cont">
-                            <div className="cont_01"></div>
+                            <div className="cont_01">
+                                
+                            </div>
                             <div className="cont_text">
                                 <p>시원하게 즐겨요</p>
                             </div>

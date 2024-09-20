@@ -46,6 +46,11 @@
     background: url('../images/main/logo_CokePLAY.svg') no-repeat center center;
     background-size: 70%;
 }
+.main_slider .subtitle-section{
+    background: url('../images/main/main_slider01.png') no-repeat center center;
+    color : #fff;
+}
+
 .rec_wrap{
     max-width: 1280px;
     margin: 0 auto;
@@ -104,7 +109,8 @@
     width: 32%;
 }
 .item_wrap .item_img img{
-    width: 100%;
+    width: 88px;
+    height: 144px;
 }
 .content_wrap{
     max-width: 1280px;
@@ -126,6 +132,12 @@
     height: 336px;
     margin-right: 20px;
     background: var(--k100-color);
+    border-radius:15px;
+    overflow: hidden;
+}
+.history_cont .left_cont img{
+    width: 100%;
+    height: 100%;
 }
 .history_cont .right_cont{
     width: 50%;
@@ -134,12 +146,18 @@
 .history_cont .right_cont .cont_01{
     width: 50%;
     height: 336px;
-    background: var(--k300-color);
+    background: #fff;
 }
 .history_cont .right_cont .cont_02{
     width: 50%;
     height: 336px;
+    border-radius: 15px;
+    overflow: hidden;
     background: var(--k100-color);
+}
+.history_cont .right_cont .cont_02 img{
+    width: 100%;
+    height: 100%;
 }
 .brand_wrap h2{
     margin-bottom: 20px;
@@ -153,20 +171,31 @@
     height: 336px;
     display: flex;
     margin-right: 20px;
-    background: var(--k400-color);
 }
 .brand_cont .left_cont .cont_01{
     width: 50%;
     height: 336px;
-    background: var(--k300-color);
+    background: #fff;
 }
 .brand_cont .left_cont .cont_02{
     width: 50%;
     height: 336px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.brand_cont .left_cont .cont_02 img{
+    width: 100%;
+    height: 100%;
 }
 .brand_cont .right_cont{
     width: 50%;
-    background: var(--k100-color);
+    height: 336px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.brand_cont .right_cont img{
+    width: 100%;
+    height: 100%;
 }
 .social_value{
     margin-bottom: 120px;

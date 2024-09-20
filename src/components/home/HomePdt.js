@@ -1,5 +1,6 @@
 import React from "react";
 import "assets/css/home.css";
+import{Link} from "react-router-dom"
 
 function HomePdt() {
   return (
@@ -8,142 +9,142 @@ function HomePdt() {
       <div className="product_slider">
         <ul className="top_slider">
           <li>
-            <a href="#none">
-              <div className="item_wrap">
+          <Link to={`/brand/detail/1`}>
+            <div className="item_wrap">
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>코카 - 콜라</h3>
                   <p>
-                    제품 설명이 들어가요
+                    일상 속 마법 같은
                     <br />
-                    짧아야 해요.
+                    짜릿한 순간을 함께
                   </p>
                 </div>
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                  <img src="/images/home/coke.png" alt="코카콜라" />
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#none">
+            <Link to={`/brand/detail/2`}>
               <div className="item_wrap">
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>스프라이 - 트</h3>
                   <p>
-                    제품 설명이 들어가요
-                    <br />
-                    짧아야 해요.
+                  가슴 속을 시원하게
+                  <br />
+                  물들이는 상쾌함
                   </p>
                 </div>
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                <img src="/images/home/sprite.png" alt="코카콜라" />
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#none">
+            <Link to={`/brand/detail/3`}>
               <div className="item_wrap">
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>환 - 타</h3>
                   <p>
-                    제품 설명이 들어가요
-                    <br />
-                    짧아야 해요.
+                  놓칠 수 없는
+                  <br />
+                  즐거운 환상의 맛
                   </p>
                 </div>
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                  <img src="/images/home/fanta.png" alt="" />
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#none">
+          <Link to={`/brand/detail/4`}>
               <div className="item_wrap">
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>닥터 - 페퍼</h3>
                   <p>
-                    제품 설명이 들어가요
-                    <br />
-                    짧아야 해요.
+                  마셔보면 백퍼,
+                  <br />
+                  닥터 페퍼!
                   </p>
                 </div>
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                <img src="/images/home/drpp.png" alt="" />
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="bottom_slider">
           <li>
-            <a href="#none">
+          <Link to={`/brand/detail/5`}>
               <div className="item_wrap">
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                <img src="/images/home/powerade.png" alt="" />
                 </div>
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>파워 - 에이드</h3>
                   <p>
-                    제품 설명이 들어가요
-                    <br />
-                    짧아야 해요.
+                  열정과 파워를 담은
+                  <br />
+                  스포츠음료
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#none">
+          <Link to={`/brand/detail/6`}>
               <div className="item_wrap">
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                <img src="/images/home/toreta.png" alt="" />
                 </div>
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>토레타 - !</h3>
                   <p>
-                    제품 설명이 들어가요
-                    <br />
-                    짧아야 해요.
+                  언제 어디서나 가볍게
+                  <br />
+                  즐길 수 있는 수분
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#none">
+          <Link to={`/brand/detail/6`}>
               <div className="item_wrap">
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                <img src="/images/home/seagram.png" alt="" />
                 </div>
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>씨그램</h3>
                   <p>
-                    제품 설명이 들어가요
-                    <br />
-                    짧아야 해요.
+                  마지막까지 톡!
+                  <br />
+                  쏘는 상쾌함!
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#none">
+          <Link to={`/brand/detail/8`}>
               <div className="item_wrap">
                 <div className="item_img">
-                  <img src="https://placehold.co/88x140" alt="임시이미지" />
+                <img src="/images/home/georgia.png" alt="" />
                 </div>
                 <div className="item_text">
-                  <h3>제품명</h3>
+                  <h3>조지아</h3>
                   <p>
-                    제품 설명이 들어가요
-                    <br />
-                    짧아야 해요.
+                  깨우다,
+                  <br />
+                  오늘을 새롭게
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

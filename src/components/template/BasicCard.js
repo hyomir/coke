@@ -1,7 +1,7 @@
 import React from 'react'
 import 'assets/css/template.css'
 
-function Card() {
+function Card({title,content}) {
     return (
         <div className="basic-card-section">
             <div className="card-wrap">
@@ -9,8 +9,8 @@ function Card() {
                     <img src="https://placehold.co/413x232" alt="임시이미지" />
                 </div>
                 <div className="card-text">
-                    <h4>컨텐츠 이름</h4>
-                    <p>컨텐츠 내용</p>
+                    <h4>{title}</h4>
+                    <p>{content}</p>
                 </div>
                 <div className='more-btn'><a href="#none">더보기</a></div>
             </div>

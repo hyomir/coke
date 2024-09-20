@@ -1,10 +1,11 @@
 import React from 'react'
 import 'assets/css/template.css'
+import {Link} from "react-router-dom"
 
 function BtnArr(){
     return(
         <div className="arr-btn">
-            <a href="#none">바로가기</a>
+            <Link to="">바로가기</Link>
         </div>
     );
 }

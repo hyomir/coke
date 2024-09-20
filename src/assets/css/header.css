@@ -149,7 +149,8 @@
     }
     .search input{
         width: 100%;
-        display: block;
+        /* display: block; */
+        /* 햄버거 메뉴 작동시 보이게 */
         height: 24px;
         margin-right: 4px;
         border:2px solid var(--k700-color);
@@ -161,6 +162,7 @@
         border: none;
         background: url(../images/header/search.svg) no-repeat center center;
         cursor: pointer;
+        display: none;
     }
     .hamburger_menu{
         display: block;
@@ -177,4 +179,8 @@
     .search button{
         display: block;
     }
+}
+
+.nav.open {
+    display: block; /* 메뉴가 열릴 때 표시 */
 }
