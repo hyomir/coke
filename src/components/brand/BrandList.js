@@ -13,7 +13,7 @@ function BrandList({item}){
                                     <img src={`/images/brand/${brands.img}`} alt={brands.name} />
                                 </div>
                             </Link>
-                    </li>
+                        </li>
                     )}
                 </ul>
             </div>

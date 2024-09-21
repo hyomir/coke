@@ -1,13 +1,16 @@
 import React from "react";
 import "assets/css/since.css";
 
-function SinceNew() {
+function SinceNew(){
   return (
     <section className="new_contents">
         <div className="new_left">
+          <div className="test">
+            <h2>test</h2>
+          </div>
           <div class="new_title">
             <h3>최신 컨텐츠</h3>
-            <p>6개의 이야기</p>
+            <p>개의 이야기</p>
           </div>
           <div className="new_cont">
             <a href="#none">

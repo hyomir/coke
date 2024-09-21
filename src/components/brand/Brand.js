@@ -9,6 +9,7 @@ function Brand(){
     const [item,setItems] = useState(brandData);
     const brandList =[...new Set(brandData.map((item)=>item.type))]
     const filterItem = (curBrand) => {
+        console.log("선택된 브랜드:", curBrand);
         const newItem = brandData.filter((newVal) => {
         return newVal.type === curBrand;
         });
@@ -17,7 +18,7 @@ function Brand(){
     const allItem = brandData.map((item)=>item)
     useEffect(() => {
         console.log("현재 필터링된 아이템:", item);
-    }, [item]);
+    }, [item]); // item이 변경될 때마다 로그 출력
 
     return (
         <section className="brand">

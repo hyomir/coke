@@ -146,6 +146,7 @@
     height: 500px;
     border-radius: 14px;
     position: relative;
+    background: var(--k300-color);
 }
 .subtitle-section .sub-text{
     position: absolute;

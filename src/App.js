@@ -3,7 +3,7 @@ import './App.css';
 import RootLayout from './components/RootLayout'
 import Home from './components/home/Home'
 import Brand from './components/brand/Brand'
-import Detail from 'components/brand/Detail';
+import Detail from 'components/brand/Detail'
 import Company from './components/history/Company'
 import Since from './components/history/Since'
 import Story from './components/story/Story'

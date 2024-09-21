@@ -3,7 +3,6 @@ import "assets/css/brand.css";
 import brandData from "data/brandData.json";
 import { useParams } from "react-router-dom";
 
-
 function Detail(){
     const {id} = useParams();
     const brandDetail = brandData.find((item) => item.id === Number(id));
@@ -15,8 +14,6 @@ function Detail(){
                 <>
                     <h3>{brandDetail.name}</h3>
                     <img src={`/images/brand/${brandDetail.img}`} alt={brandDetail.name} />
-                    <p>{brandDetail.description}</p>
-                    {/* 추가 정보 표시 */}
                 </>
             ) : (
                 <p>브랜드 정보를 찾을 수 없습니다.</p>

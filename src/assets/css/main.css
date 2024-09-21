@@ -4,9 +4,18 @@
     position: relative;
     z-index: 1;
 }
+.layout{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+}
 
 .layout-wrap{
-    padding-bottom: 500px;
+    /* display: flex; */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 @media (max-width: 375px){
