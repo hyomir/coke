@@ -17,8 +17,7 @@ function Home() {
             <div className="rec_wrap">
                 <HomeRec></HomeRec>
             </div>
-            <div className=
-            "latest_wrap">
+            <div className="latest_wrap">
                 <HomeLatest></HomeLatest>
             </div>
             <div className="product_wrap">

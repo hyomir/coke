@@ -1,19 +1,25 @@
 import React from 'react'
 import 'assets/css/home.css'
 import BasicCard from 'components/template/BasicCard'
+import db from 'data/data.json'
+
+const recList = db.content
+console.log(recList)
 
 function HomeRec() {
-    const title="props 개념으로 컨텐츠 전달하기"
-    const content ="본문내용 전달하기"
-
     return (
         <section className='rec_section'>
             <h2>추천 컨텐츠</h2>
-                <div class="rec_list">
-                    <BasicCard title={title} content={content}></BasicCard>
-                    <BasicCard></BasicCard>
-                    <BasicCard></BasicCard>
-                </div>
+            <div className="rec_list">
+            {recList.filter((list,index) => index <= 2).map((list) => (
+                    <BasicCard 
+                        key={list.id}
+                        title={list.title}
+                        img_url={list.img_url}
+                        desc={list.desc}
+                    />
+                ))}
+            </div>
         </section>
     );
 }
