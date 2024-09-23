@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://hyomir.github.io/coke/"
+    "homepage": "https://hyomir.github.io/coke"
   },
   "eslintConfig": {
     "extends": [
