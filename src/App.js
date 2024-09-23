@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, BrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import Lenis from '@studio-freight/lenis';
 import './App.css';
 import RootLayout from './components/RootLayout';
@@ -52,9 +52,7 @@ function App() {
 
   return (
     <div className='App'>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <RouterProvider router={router} />
-      </BrowserRouter>
     </div>
   );
 }
