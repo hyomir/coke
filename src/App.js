@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import Lenis from '@studio-freight/lenis';
 import './App.css';
 import RootLayout from './components/RootLayout';
@@ -17,7 +17,7 @@ import SearchResults from './components/main/SearchResults';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<RootLayout />}>
+    <Route path='/' element={<RootLayout />} basename="/coke"> 
       <Route index element={<Home />} />
       <Route path="/search" element={<SearchBox />} />
       <Route path="/result/:id" element={<SearchResults />} />
