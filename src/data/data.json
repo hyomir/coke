@@ -1,4 +1,4 @@
-{"content":[
+{   "content":[
     {
     "id":"1",
     "title":"코카-콜라x블루리본 서베이 <레드리본 전국의 맛집 2024>",
@@ -153,22 +153,159 @@
     {
     "id":"1",
     "title":"지속 가능한 패키징",
-    "img_url":"",
+    "img_url":"social_value/sustainability/cards_sustainability_1_1102x827.png",
     "desc":"우리 제품 생산에 사용되는 플라스틱이 환경에 미치는 영향을 최소화하기 위해 다양한 목표를 설정하고 달성하기 위해 노력하고 있습니다."
     },
     {
     "id":"2",
     "title":"ONETHEPL 캠페인",
-    "img_url":"",
+    "img_url":"social_value/sustainability/cards_sustainability_2_1102x827.png",
     "desc":"사용한 페트병이 다시 소중한 자원으로 활용될 수 있도록, 코카-콜라는 다양한 방법으로 올바른 분리배출 방법을 알리고 있습니다."
     },
     {
     "id":"3",
     "title":"물 환원 프로젝트",
-    "img_url":"",
+    "img_url":"social_value/sustainability/cards_sustainability_3_1102x827.png",
     "desc":"물 한 방울도 소중하게 생각하며 책임감을 가지고 사용합니다. 여기서 더 나아가 코카-콜라가 사용한 물을 지역사회에 환원하기 위해 노력하고 있습니다."
+    },
+    {
+    "id":"4",
+    "title":"Business & Sustainability Report",
+    "img_url":"social_value/sustainability/sustainability-governance-report.jpg",
+    "desc":"코카-콜라는 지속 가능한 미래를 가꾸고 널리 사랑받는 브랜드와 제품을 만듭니다. 사람들의 갈증을 해소하고 더 나아가 긍정적인 변화를 이루기 위한 노력을 확인해보세요.​"
+    },
+    {
+    "id":"5",
+    "title":"SUSTAINABILITY RESOURCE CENTER",
+    "img_url":"social_value/sustainability/kr_Global Sustainability Vision Campaign Card_Resource_Centre 1280x1024.jpg",
+    "desc":"코카-콜라는 지속 가능한 미래를 만들기 위해 노력합니다. 기업의 운영에서부터 사람들의 일상까지 더 나은 미래를 만들기 위한 코카-콜라의 노력을 확인해보세요​.​"
+    },
+    {
+    "id":"6",
+    "title":"지역사회 커뮤니티",
+    "img_url":"social_value/social/lucho-renolfi-YJTC3hS3y0o-unsplash.jpg",
+    "desc":"코카-콜라는 도움이 필요한 사회를 적극적으로 지원하며 우리의 일상에 긍정적인 변화를 이루고자 노력합니다​.​"
+    },
+    {
+    "id":"7",
+    "title":"스포츠 & 엔터테인먼트",
+    "img_url":"social_value/social/230901_Cards_Social_2_1102x827.jpg",
+    "desc":"코카-콜라만의 방법으로 스포츠, 음악, 게임 및 영화 산업과의 현업하며 소비자들과 소통합니다​.​"
     }
-
-
+],
+"brand":[{
+    "id":"1",
+    "name":"코카-콜라",
+    "img":"cocacola.png",
+    "type":"탄산음료"
+},
+{
+    "id":"2",
+    "name":"스프라이트",
+    "img":"sprite.png",
+    "type":"탄산음료"
+},
+{
+    "id":"3",
+    "name":"환타",
+    "img":"Fanta.png",
+    "type":"탄산음료"
+}
+,{
+    "id":"4",
+    "name":"닥터페퍼",
+    "img":"lDr.pepper.png",
+    "type":"탄산음료"
+}
+,{
+    "id":"5",
+    "name":"파워에이드",
+    "img":"Powerade.png",
+    "type":"스포츠"
+}
+,{
+    "id":"6",
+    "name":"토레타",
+    "img":"Toreta.png",
+    "type":"스포츠"
+}
+,{
+    "id":"7",
+    "name":"씨그램",
+    "img":"Seagram.png",
+    "type":"스포츠"
+},
+{
+    "id":"8",
+    "name":"지오지아",
+    "img":"georgia.png",
+    "type":"커피"
+},
+{
+    "id":"9",
+    "name":"미닛메이드",
+    "img":"MinuteMaid.png",
+    "type":"주스"
+},
+{
+    "id":"10",
+    "name":"코코팜",
+    "img":"Cocopalm.png",
+    "type":"주스"
+},
+{
+    "id":"11",
+    "name":"태양의 식후비법 w차",
+    "img":"w.png",
+    "type":"차"
+},
+{
+    "id":"12",
+    "name":"태양의 마테차",
+    "img":"SunofMate.png",
+    "type":"차"
+},
+{
+    "id":"13",
+    "name":"캐나다 드라이",
+    "img":"canada-dry.png",
+    "type":"탄산음료"
+},
+{
+    "id":"14",
+    "name":"써니텐",
+    "img":"Sunny10.png",
+    "type":"탄산음료"
+},
+{
+    "id":"15",
+    "name":"갈아만든 배",
+    "img":"Crushed Pear.png",
+    "type":"주스"
+},
+{
+    "id":"16",
+    "name":"강원 평창수",
+    "img":"Pyungchangsoo.png",
+    "type":"스포츠"
+},
+{
+    "id":"17",
+    "name":"비타민워터",
+    "img":"Glaceauvitaminwater_re.png",
+    "type":"스포츠"
+},
+{
+    "id":"18",
+    "name":"vio휘오",
+    "img":"Vio.png",
+    "type":"스포츠"
+},
+{
+    "id":"19",
+    "name":"과일촌",
+    "img":"fruitvillage.png",
+    "type":"주스"
+}
 ]
 }

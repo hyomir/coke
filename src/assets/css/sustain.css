@@ -17,8 +17,22 @@
     display: flex;
     justify-content: space-between;
 }
+.sustain_title_cont .subtitle-section{
+    background: url('../images/main/sustainability.jpg') no-repeat center bottom;
+}
+.sustain_title_cont .subtitle-section .sub-text{
+    color:#fff;
+}
+.sustain_title_cont .subtitle-section .sub-text a{
+    color:#333;
+}
 .sustain_text_cont .img_cont{
     width: 50%;
+    height: 300px;
+    background: url('../images/main/togather.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 14px;
+    overflow: hidden;
 }
 .sustain_text_cont .text_cont{
     width: 50%;

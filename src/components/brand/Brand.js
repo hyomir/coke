@@ -1,15 +1,14 @@
-import React,{useState,useEffect} from "react";
+import React,{useState} from "react";
 import "assets/css/brand.css";
 import Sns from "components/template/Sns";
-import brandData from "data/brandData.json"
+import DB from "data/data.json"
 import BrandListMenu from "./BrandListMenu";
 import BrandList from "./BrandList";
-
+const brandData = DB.brand
 function Brand(){
     const [item,setItems] = useState(brandData);
     const brandList =[...new Set(brandData.map((item)=>item.type))]
     const filterItem = (curBrand) => {
-        console.log("선택된 브랜드:", curBrand);
         const newItem = brandData.filter((newVal) => {
         return newVal.type === curBrand;
         });
@@ -20,7 +19,7 @@ function Brand(){
     return (
         <section className="brand">
             <h2>코카 - 콜라 제품</h2>
-            <p>items : {item.length}</p>
+            <p>{item.length}개의 브랜드</p>
             <BrandListMenu setItems={setItems} brandList={brandList} filterItem={filterItem} allItem={allItem} />
             <BrandList item={item} />
             <Sns></Sns>

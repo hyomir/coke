@@ -4,7 +4,6 @@ import BasicCard from 'components/template/BasicCard'
 import db from 'data/data.json'
 
 const recList = db.content
-console.log(recList)
 
 function HomeRec(){
     return (
@@ -15,6 +14,7 @@ function HomeRec(){
                     <BasicCard 
                         key={list.id}
                         title={list.title}
+                        desc={list.desc}
                         img_url={list.img_url}
                     />
                 ))}

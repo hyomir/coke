@@ -15,7 +15,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--k100-color);
+    border-radius: 14px;
+    overflow: hidden;
+    background: url('../images/main/story_title.jpg') no-repeat center;
+}
+.story_galley h3{
+    color:#fff;
+    background:rgba(0,0,0,0.8);
 }
 .latest_wrap{
     margin-bottom: 80px;

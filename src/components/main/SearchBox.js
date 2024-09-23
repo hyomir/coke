@@ -26,18 +26,17 @@ function SearchBox({ value, onChange, filteredData }) {
                     onChange={handleInputChange}
                 />
                 {showResults && (
-                    <ul className='search-result'>
-                        {filteredData && filteredData.length > 0 ? (
-                            filteredData.map(item => (
-                                <li key={item.id} onClick={() => handleResultClick(item.id)}>
-                                    <h2>{item.title}</h2>
-                                    <p>{item.cont}</p>
-                                </li>
-                            ))
-                        ) : (
-                            <p>No results found.</p>
-                        )}
-                    </ul>
+                        <ul className='search-result'>
+                            {filteredData && filteredData.length > 0 ? (
+                                filteredData.map(item => (
+                                    <li key={item.id} onClick={() => handleResultClick(item.id)}>
+                                        <h4>{item.title}</h4>
+                                    </li>
+                                ))
+                            ) : (
+                                <p>결과를 찾고 있습니다.</p>
+                            )}
+                        </ul>
                 )}
                 <button type='button'></button>
             </form>

@@ -7,12 +7,14 @@ function HomeHistory() {
             <h2>코카 콜라 역사</h2>
             <div className="history_cont">
                 <div className="left_cont">
-                    <img src="images/history/company/hero-company-desktop.jpg" alt="" />
                 </div>
                 <div className="right_cont">
-                    <div className="cont_01"></div>
+                    <div className="cont_01">
+                        <p>
+                        130여 년 동안 사람들의 일상 속에서 짜릿함과 행복을 나누어온 코카-콜라!<br/>
+                        </p>
+                    </div>
                     <div className="cont_02">
-                        <img src="images/history/since/231005_Cards_History3_1102x827.jpg" alt="" />
                     </div>
                 </div>
             </div>

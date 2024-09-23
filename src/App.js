@@ -1,4 +1,6 @@
+import { useEffect } from 'react';
 import { createBrowserRouter,createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import Lenis from '@studio-freight/lenis'
 import './App.css';
 import RootLayout from './components/RootLayout'
 import Home from './components/home/Home'
@@ -22,10 +24,10 @@ const router = createBrowserRouter(
       <Route path ="brand" element={<Brand/>}>
       <Route path="detail/:id" element={<Detail/>}></Route>
       </Route>
-      <Route path="company" element={<Company/>}></Route>
+      <Route path="company" element={<Since/>}></Route>
       <Route path="since" element={<Since/>}></Route>
       <Route path ="story" element={<Story/>}></Route>
-      <Route path ="social" element={<SocialValue/>}></Route>
+      <Route path ="social" element={<Sustain/>}></Route>
       <Route path="sustainability" element={<Sustain/>}></Route>
       <Route path="*" element={<Notfound/>}></Route>
     </Route>
@@ -33,6 +35,20 @@ const router = createBrowserRouter(
 )
 
 function App(){
+  useEffect(() => {
+    const lenis = new Lenis();
+        lenis.on('scroll', (e) => {
+      console.log(e);
+    });
+    const raf = (time) => {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    };
+    requestAnimationFrame(raf);
+    return () => {
+      lenis.destroy();
+    };
+  }, []);
   return (
     <div className='App'>
       <RouterProvider router={router}>

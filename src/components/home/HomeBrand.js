@@ -8,13 +8,12 @@ function HomeBrand() {
                 <div className="brand_cont">
                     <div className="left_cont">
                         <div className="cont_01">
+                            <p>1886년 코카-콜라의 탄생부터<br/> 오늘이 있기까지,<br/>흥미롭고 다양한 이야기들을 만나보세요.</p>
                         </div>
                         <div className="cont_02">
-                            <img src="images/story/230418-newjeans-campaign-kakao-800x800.jpg" alt="" />
                         </div>
                     </div>
                     <div className="right_cont">
-                        <img src="images/story/231016_full-hero_brand-story_1440x810.jpg" alt="" />
                     </div>
                 </div>
         </section>

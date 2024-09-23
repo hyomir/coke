@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
 
 
 const BurgerMenu = () => {
@@ -37,7 +37,7 @@ const BurgerMenu = () => {
             <ul className="gnb">
                         <li><NavLink to="/brand">코카-콜라 제품</NavLink></li>
                         <li onClick={toggleSubMenu}>
-                            코카-콜라 역사 {subMenuOpen ? '▼' : '►'}
+                        <Link>코카-콜라 역사 {subMenuOpen ? '▼' : '►'}</Link>
                             <ul className={`sub ${subMenuOpen ? 'open' : ''}`}>
                                 <li><NavLink to="company">코카콜라 컴퍼니</NavLink></li>
                                 <li><NavLink to="since">since 1886</NavLink></li>
@@ -47,7 +47,7 @@ const BurgerMenu = () => {
                             <NavLink to="/story">브랜드 스토리</NavLink>
                         </li>
                         <li>
-                            사회적 가치{subMenuOpen ? '▼' : '►'}
+                        <Link>사회적 가치{subMenuOpen ? '▼' : '►'}</Link>
                             <ul className={`sub ${subMenuOpen ? 'open' : ''}`}>
                                 <li><NavLink to="sustainability">지속가능성</NavLink></li>
                                 <li><NavLink to="social">사회환원</NavLink></li>

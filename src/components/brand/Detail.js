@@ -1,8 +1,8 @@
 import React from "react";
 import "assets/css/brand.css";
-import brandData from "data/brandData.json";
+import DB from "data/data.json";
 import { useParams } from "react-router-dom";
-
+const brandData = DB.brand
 function Detail(){
     const {id} = useParams();
     const brandDetail = brandData.find((item) => item.id === Number(id));

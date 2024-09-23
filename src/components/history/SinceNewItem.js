@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 function SinceNewItem({item}){
   return (
-    <li>
+    <li className="cont">
       <Link>
         {item.img_url && <img src={`/images/${item.img_url}`} alt={item.title} />}
         <div className="cont_text">
