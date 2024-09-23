@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0222695.css",
+    "main.js": "/static/js/main.b952cf3d.js",
+    "static/js/453.4c81c6eb.chunk.js": "/static/js/453.4c81c6eb.chunk.js",
+    "static/media/story_title.jpg": "/static/media/story_title.a888355d0c15bee8739b.jpg",
+    "static/media/main_slider02.png": "/static/media/main_slider02.4b8c4f8cfa6e5a9c8094.png",
+    "static/media/james-yarema-wQFmDhrvVSs-unsplash.jpg": "/static/media/james-yarema-wQFmDhrvVSs-unsplash.266ae3b3167919e7edc8.jpg",
+    "static/media/main_slider04.png": "/static/media/main_slider04.b872e7a29c1bcebe629c.png",
+    "static/media/main_slider01.png": "/static/media/main_slider01.344f8dfc7bc9024a33af.png",
+    "static/media/main_slider03.png": "/static/media/main_slider03.c98afede7c9f8bff9bc8.png",
+    "static/media/sustainability.jpg": "/static/media/sustainability.ffee72932cf9bd3d0d3a.jpg",
+    "static/media/togather.jpg": "/static/media/togather.844a8dbd8175900f8a31.jpg",
+    "static/media/main_slider05.png": "/static/media/main_slider05.b0ed74a9a2627c17f6db.png",
+    "static/media/230912_Content_History_1_1102x827.png": "/static/media/230912_Content_History_1_1102x827.0ad04b8bd6c4d691fce3.png",
+    "static/media/231016_Full-Hero_History_1440x810.jpg": "/static/media/231016_Full-Hero_History_1440x810.8d968cba32213885c851.jpg",
+    "static/media/231016_full-hero_brand-story_1440x810.jpg": "/static/media/231016_full-hero_brand-story_1440x810.e5188b2be00123726473.jpg",
+    "static/media/230418-newjeans-campaign-kakao-800x800.jpg": "/static/media/230418-newjeans-campaign-kakao-800x800.bd4f5a8c9b0396829770.jpg",
+    "static/media/logo-white.svg": "/static/media/logo-white.72d368df5e3826006945b88caf384bce.svg",
+    "static/media/logo-red.svg": "/static/media/logo-red.853edae7661cb3b18521afa820f04d07.svg",
+    "static/media/logo_CokePLAY.svg": "/static/media/logo_CokePLAY.c07feff564e92d580b5e.svg",
+    "static/media/twitter-white.svg": "/static/media/twitter-white.98da16c18434e07ea34d612f2176f706.svg",
+    "static/media/youtube-white.svg": "/static/media/youtube-white.bcac4695d68ffdcff84eac7a47ce667d.svg",
+    "static/media/right-arrow.svg": "/static/media/right-arrow.a3d58e0110c5a44ada4d.svg",
+    "index.html": "/index.html",
+    "static/media/instagram-white.svg": "/static/media/instagram-white.209fd7b8dd7163b1bc18e565276cbdb8.svg",
+    "static/media/facebook-white.svg": "/static/media/facebook-white.03567ddae0d153c58a4fde71e8f4f4ff.svg",
+    "static/media/deco_text01.svg": "/static/media/deco_text01.adc8e6a89ac4962f4d3d.svg",
+    "static/media/menu.svg": "/static/media/menu.644fa295fdd5f662e642.svg",
+    "static/media/pause.svg": "/static/media/pause.2550f2a2ba04229047d1.svg",
+    "static/media/search.svg": "/static/media/search.f9705ffe407455bd10ed.svg",
+    "static/media/closed.svg": "/static/media/closed.6c9a4ba71a333be7b021.svg",
+    "static/media/play.svg": "/static/media/play.7c595cc952560306ed09.svg",
+    "main.e0222695.css.map": "/static/css/main.e0222695.css.map",
+    "main.b952cf3d.js.map": "/static/js/main.b952cf3d.js.map",
+    "453.4c81c6eb.chunk.js.map": "/static/js/453.4c81c6eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0222695.css",
+    "static/js/main.b952cf3d.js"
+  ]
+}
