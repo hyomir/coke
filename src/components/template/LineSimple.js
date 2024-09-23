@@ -1,14 +1,14 @@
 import React from "react";
-function LineSimple() {
+function LineSimple({title,desc,img_url}) {
     return (
         <div className="line-simple">
             <div className="cont-text">
-                <h3>컨텐츠 제목</h3>
-                <p>컨텐츠 설명입니다.</p>
+                <h3>{title}</h3>
+                <p>{desc}</p>
                 <a href="#none">이동하기</a>
             </div>
             <div className="cont-img">
-                <img src="https://placehold.co/413x232" alt="임시이미지" />
+            {img_url && <img src={`/images/${img_url}`} alt={title} />}
             </div>
         </div>
     );

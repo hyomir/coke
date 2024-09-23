@@ -5,6 +5,8 @@ import BasicCard from "components/template/BasicCard";
 import LineSimple from "components/template/LineSimple";
 import TabCard from "components/template/TabCard";
 import Sns from "components/template/Sns";
+import db from "data/data.json"
+const socialData = db.social
 function Sustain() {
   return (
     <div className="sustain">
@@ -24,9 +26,14 @@ function Sustain() {
       <div className="sustain_project_cont">
         <h3>코카 - 콜라의 지속 가능성 분야</h3>
         <div className="project_cont_wrap">
-          <BasicCard></BasicCard>
-          <BasicCard></BasicCard>
-          <BasicCard></BasicCard>
+        {socialData.filter((list,index) => index <= 2).map((list) => (
+          <BasicCard 
+            key={list.id}
+            title={list.title}
+            desc={list.desc}
+            img_url={list.img_url}
+          />
+        ))}
         </div>
       </div>
       <div className="sustain_report_cont">

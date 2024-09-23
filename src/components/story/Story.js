@@ -3,6 +3,9 @@ import 'assets/css/story.css'
 import Latest from 'components/template/Latest';
 import BasicCard from 'components/template/BasicCard';
 import Sns from 'components/template/Sns';
+import db from 'data/data.json'
+
+const recList = db.content
 function Story() {
   return (
     <div className='story'>
@@ -18,9 +21,13 @@ function Story() {
       <div className="rec_content">
         <h3>관련 컨텐츠</h3>
         <div className="cont_wrap">
-          <BasicCard></BasicCard>
-          <BasicCard></BasicCard>
-          <BasicCard></BasicCard>
+        {recList.map((list) => (
+                    <BasicCard 
+                        key={list.id}
+                        title={list.title}
+                        img_url={list.img_url}
+                    />
+                ))}
         </div>
         <div className="pager">
           <div className="pager_cont"></div>

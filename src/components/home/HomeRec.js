@@ -6,7 +6,7 @@ import db from 'data/data.json'
 const recList = db.content
 console.log(recList)
 
-function HomeRec() {
+function HomeRec(){
     return (
         <section className='rec_section'>
             <h2>추천 컨텐츠</h2>
@@ -16,7 +16,6 @@ function HomeRec() {
                         key={list.id}
                         title={list.title}
                         img_url={list.img_url}
-                        desc={list.desc}
                     />
                 ))}
             </div>

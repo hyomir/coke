@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import SearchBox from './SearchBox';
-import SearchResults from './SearchResults';
 import DB from 'data/data.json';
 
 const data = DB.content;
@@ -25,7 +24,6 @@ function Search() {
     return (
         <div>
             <SearchBox value={searchTerm} onChange={handleSearch} filteredData={filteredData} />
-            <SearchResults results={filteredData} />
         </div>
     );
 }

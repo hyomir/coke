@@ -1,65 +1,18 @@
 import React from "react";
+import SinceOldItem from './SinceOldItem'
 import "assets/css/since.css";
+import db from 'data/data.json'
 
-function SinceOld() {
+const historyList = db.history
+
+function SinceOld(){
   return (
     <section className="old_contents">
       <h3>지난 컨텐츠</h3>
       <ul className="old_cont_list">
-        <li>
-          <a href="#none">
-            <img src="https://placehold.co/196x110/png" alt="" />
-            <div className="cont_text">
-              <h4>컨텐츠 제목</h4>
-              <p>컨텐츠 요약 내용</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#none">
-            <img src="https://placehold.co/196x110/png" alt="" />
-            <div className="cont_text">
-              <h4>컨텐츠 제목</h4>
-              <p>컨텐츠 요약 내용</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#none">
-            <img src="https://placehold.co/196x110/png" alt="" />
-            <div className="cont_text">
-              <h4>컨텐츠 제목</h4>
-              <p>컨텐츠 요약 내용</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#none">
-            <img src="https://placehold.co/196x110/png" alt="" />
-            <div className="cont_text">
-              <h4>컨텐츠 제목</h4>
-              <p>컨텐츠 요약 내용</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#none">
-            <img src="https://placehold.co/196x110/png" alt="" />
-            <div className="cont_text">
-              <h4>컨텐츠 제목</h4>
-              <p>컨텐츠 요약 내용</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#none">
-            <img src="https://placehold.co/196x110/png" alt="" />
-            <div className="cont_text">
-              <h4>컨텐츠 제목</h4>
-              <p>컨텐츠 요약 내용</p>
-            </div>
-          </a>
-        </li>
+        {historyList.slice(7, 12).map((item, index) => (
+          <SinceOldItem key={index} item={item} />
+        ))}
       </ul>
     </section>
   );

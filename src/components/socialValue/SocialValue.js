@@ -15,7 +15,8 @@ function SocialValue() {
           <img src="https://placehold.co/522x284/png" alt="" />
           </div>
           <div className="text_cont">
-            <p>설명 설명 설명</p>
+            <p>코카-콜라의 구성원뿐만 아니라 서로 영향을 주고 받는 지역사회에 이르기까지​<br/>
+              함께 성장하기 위한 발판을 마련하고 많은 사람들의 삶을 개선하기 위해 행동합니다. </p>
           </div>
         </div>
       </div>

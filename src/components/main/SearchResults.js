@@ -5,7 +5,7 @@ function SearchResults({ results = [] }) {
         <ul>
             {results.map(item => (
                 <li key={item.id}>
-                    <h2>{item.title}</h2>
+                    <h4>{item.title}</h4>
                     <p>{item.cont}</p>
                 </li>
             ))}

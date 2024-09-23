@@ -1,84 +1,33 @@
 import React from "react";
 import "assets/css/since.css";
+import db from 'data/data.json'
+import SinceNewItem from "./SinceNewItem";
+
+const historyList = db.history
 
 function SinceNew(){
   return (
     <section className="new_contents">
         <div className="new_left">
-          <div className="test">
-            <h2>test</h2>
-          </div>
           <div class="new_title">
             <h3>최신 컨텐츠</h3>
-            <p>개의 이야기</p>
+            <p>6개의 이야기</p>
           </div>
           <div className="new_cont">
             <a href="#none">
-              <img src="https://placehold.co/414x614/png" alt="" />
+              {historyList[0].img_url && <img src={`/images/${historyList[0].img_url}`} alt={historyList[0].title} />}
               <div className="cont_text">
-                <h4>컨텐츠 제목</h4>
-                <p>컨텐츠 요약 내용이 두 줄 정도</p>
+                <h4>{historyList[0].title}</h4>
+                <p>{historyList[0].desc}</p>
               </div>
             </a>
           </div>
         </div>
         <div className="new_right">
           <ul className="cont_list">
-            <li>
-              <a href="#none">
-                <div className="cont">
-                  <img src="https://placehold.co/304x192/png" alt="" />
-                  <div className="cont_text">
-                    <h4>컨텐츠 제목</h4>
-                    <p>컨텐츠 요약 내용이 두 줄 정도</p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <div className="cont">
-                  <img src="https://placehold.co/304x192/png" alt="" />
-                  <div className="cont_text">
-                    <h4>컨텐츠 제목</h4>
-                    <p>컨텐츠 요약 내용이 두 줄 정도</p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <div className="cont">
-                  <img src="https://placehold.co/304x192/png" alt="" />
-                  <div className="cont_text">
-                    <h4>컨텐츠 제목</h4>
-                    <p>컨텐츠 요약 내용이 두 줄 정도</p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <div className="cont">
-                  <img src="https://placehold.co/304x192/png" alt="" />
-                  <div className="cont_text">
-                    <h4>컨텐츠 제목</h4>
-                    <p>컨텐츠 요약 내용이 두 줄 정도</p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <div className="cont">
-                  <img src="https://placehold.co/304x192/png" alt="" />
-                  <div className="cont_text">
-                    <h4>컨텐츠 제목</h4>
-                    <p>컨텐츠 요약 내용이 두 줄 정도</p>
-                  </div>
-                </div>
-              </a>
-            </li>
+          {historyList.slice(1, 7).map((item, index) => (
+          <SinceNewItem key={index} item={item} />
+        ))}
           </ul>
         </div>
     </section>

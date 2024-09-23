@@ -16,9 +16,6 @@ function Brand(){
         setItems(newItem);
     };
     const allItem = brandData.map((item)=>item)
-    useEffect(() => {
-        console.log("현재 필터링된 아이템:", item);
-    }, [item]); // item이 변경될 때마다 로그 출력
 
     return (
         <section className="brand">

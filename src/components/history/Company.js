@@ -3,6 +3,8 @@ import 'assets/css/company.css'
 import TabCard from 'components/template/TabCard'
 import Sns from 'components/template/Sns'
 import LineSimple from 'components/template/LineSimple'
+import db from 'data/data.json'
+const historyList = db.history
 
 function Company() {
   return (

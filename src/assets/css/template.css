@@ -59,10 +59,14 @@
     position: relative;
 }
 .basic-card-section .card-img {
-    width: 100%;
+    width: 413px;
+    height: 300px;
     border-radius: 14px;
     overflow: hidden;
     margin-bottom: 8px;
+}
+.basic-card-section .card-img img{
+    width: 100%;
 }
 .basic-card-section .card-text {
     padding: 12px;
@@ -130,13 +134,26 @@
     padding: 40px 0;
     box-sizing: border-box;
 }
-
-.cont-text h3 {
+.line-simple .cont-text{
+    width: 50%;
+    padding-right: 40px;
+}
+.line-simple .cont-text h3 {
     margin-bottom: 28px;
 }
 
-.cont-text p {
+.line-simple .cont-text p {
     margin-bottom: 48px;
+}
+.line-simple .cont-img{
+    width: 412px;
+    height: 232px;
+    border: 2px solid var(--k700-color);
+    border-radius: 14px;
+    overflow: hidden;
+}
+.line-simple .cont-img img{
+    width: 100%;
 }
 
 /* 서브 타이틀 */
