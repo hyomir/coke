@@ -51,8 +51,9 @@ function App(){
   }, []);
   return (
     <div className='App'>
-      <RouterProvider router={router}>
-      </RouterProvider>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <RouterProvider router={router} />
+      </BrowserRouter>
     </div>
   );
 }
