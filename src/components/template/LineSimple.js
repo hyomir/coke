@@ -9,7 +9,7 @@ function LineSimple({title,desc,img_url}) {
                 <BtnArr/>
             </div>
             <div className="cont-img">
-            {img_url && <img src={`/images/${img_url}`} alt={title} />}
+            {img_url && <img src={process.env.PUBLIC_URL +`/images/${img_url}`} alt={title} />}
             </div>
         </div>
     );

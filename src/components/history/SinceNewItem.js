@@ -6,7 +6,7 @@ function SinceNewItem({item}){
   return (
     <li className="cont">
       <Link>
-        {item.img_url && <img src={`/images/${item.img_url}`} alt={item.title} />}
+        {item.img_url && <img src={process.env.PUBLIC_URL +`/images/${item.img_url}`} alt={item.title} />}
         <div className="cont_text">
             <h4>{item.title}</h4>
             <p>{item.desc}</p>

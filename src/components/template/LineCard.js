@@ -9,7 +9,7 @@ function LineCard({title,img_url,desc}){
                 <div className="deco-cont"></div>
                 <div className="line-card-content">
                     <div className="card-img">
-                    {img_url && <img src={`/images/${img_url}`} alt={title} />}
+                    {img_url && <img src={process.env.PUBLIC_URL +`/images/${img_url}`} alt={title} />}
                     </div>
                     <div className="card-text">
                         <h3>{title}</h3>

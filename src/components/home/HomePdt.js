@@ -20,7 +20,7 @@ function HomePdt() {
                   </p>
                 </div>
                 <div className="item_img">
-                  <img src="/images/home/coke.png" alt="코카콜라" />
+                  <img src={process.env.PUBLIC_URL +"/images/home/coke.png"} alt="코카콜라" />
                 </div>
               </div>
             </Link>
@@ -37,7 +37,7 @@ function HomePdt() {
                   </p>
                 </div>
                 <div className="item_img">
-                <img src="/images/home/sprite.png" alt="코카콜라" />
+                <img src={process.env.PUBLIC_URL +"/images/home/sprite.png"} alt="코카콜라" />
                 </div>
               </div>
             </Link>
@@ -54,7 +54,7 @@ function HomePdt() {
                   </p>
                 </div>
                 <div className="item_img">
-                  <img src="/images/home/fanta.png" alt="" />
+                  <img src={process.env.PUBLIC_URL +"/images/home/fanta.png"} alt="" />
                 </div>
               </div>
             </Link>
@@ -71,7 +71,7 @@ function HomePdt() {
                   </p>
                 </div>
                 <div className="item_img">
-                <img src="/images/home/drpp.png" alt="" />
+                <img src={process.env.PUBLIC_URL +"/images/home/drpp.png"} alt="" />
                 </div>
               </div>
             </Link>
@@ -82,7 +82,7 @@ function HomePdt() {
           <Link to={`/brand/detail/5`}>
               <div className="item_wrap">
                 <div className="item_img">
-                <img src="/images/home/powerade.png" alt="" />
+                <img src={process.env.PUBLIC_URL +"/images/home/powerade.png"} alt="" />
                 </div>
                 <div className="item_text">
                   <h3>파워 - 에이드</h3>
@@ -99,7 +99,7 @@ function HomePdt() {
           <Link to={`/brand/detail/6`}>
               <div className="item_wrap">
                 <div className="item_img">
-                <img src="/images/home/toreta.png" alt="" />
+                <img src={process.env.PUBLIC_URL +"/images/home/toreta.png"} alt="" />
                 </div>
                 <div className="item_text">
                   <h3>토레타 - !</h3>
@@ -116,7 +116,7 @@ function HomePdt() {
           <Link to={`/brand/detail/6`}>
               <div className="item_wrap">
                 <div className="item_img">
-                <img src="/images/home/seagram.png" alt="" />
+                <img src={process.env.PUBLIC_URL +"/images/home/seagram.png"} alt="" />
                 </div>
                 <div className="item_text">
                   <h3>씨그램</h3>
@@ -133,7 +133,7 @@ function HomePdt() {
           <Link to={`/brand/detail/8`}>
               <div className="item_wrap">
                 <div className="item_img">
-                <img src="/images/home/georgia.png" alt="" />
+                <img src={process.env.PUBLIC_URL +"/images/home/georgia.png"} alt="" />
                 </div>
                 <div className="item_text">
                   <h3>조지아</h3>

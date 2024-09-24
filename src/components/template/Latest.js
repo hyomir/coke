@@ -12,7 +12,7 @@ function Latest({title,content,video_title,img}) {
                     <p>{content}</p>
                 </div>
                 <div className="latest-img">
-                    <img src={`${img}`} alt="" />
+                    <img src={process.env.PUBLIC_URL +`${img}`} alt="" />
                 </div>
                 <div className="latest-cont">
                     <div className="cont-wrap">

@@ -15,7 +15,7 @@ function SinceNew(){
           </div>
           <div className="new_cont">
             <a href="#none">
-              {historyList[0].img_url && <img src={`/images/${historyList[0].img_url}`} alt={historyList[0].title} />}
+              {historyList[0].img_url && <img src={process.env.PUBLIC_URL +`/images/${historyList[0].img_url}`} alt={historyList[0].title} />}
               <div className="cont_text">
                 <h4>{historyList[0].title}</h4>
                 <p>{historyList[0].desc}</p>

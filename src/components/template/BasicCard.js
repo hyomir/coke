@@ -8,7 +8,7 @@ function Card({title,desc,img_url}) {
             <Link>
             <div className="card-wrap">
                 <div className="card-img">
-                {img_url && <img src={`/images/${img_url}`} alt={title} />}
+                {img_url && <img src={process.env.PUBLIC_URL +`/images/${img_url}`} alt={title} />}
                 </div>
                 <div className="card-text">
                     <h4>{title}</h4>

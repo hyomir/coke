@@ -18,11 +18,11 @@ import SearchResults from './components/main/SearchResults';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout />} basename="/coke"> 
-      <Route index element={<Home />} />
+      <Route index element={<Home/>} />
       <Route path="/search" element={<SearchBox />} />
       <Route path="/result/:id" element={<SearchResults />} />
       <Route path="brand" element={<Brand />}>
-        <Route path="detail/:id" element={<Detail />} />
+      <Route path="detail/:id" element={<Detail />} />
       </Route>
       <Route path="company" element={<Since />} />
       <Route path="since" element={<Since />} />
