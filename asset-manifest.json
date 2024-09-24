@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coke/static/css/main.d08d6e1e.css",
-    "main.js": "/coke/static/js/main.5b3104a0.js",
+    "main.js": "/coke/static/js/main.76c48116.js",
     "static/js/453.4c81c6eb.chunk.js": "/coke/static/js/453.4c81c6eb.chunk.js",
     "static/media/story_title.jpg": "/coke/static/media/story_title.a888355d0c15bee8739b.jpg",
     "static/media/main_slider02.png": "/coke/static/media/main_slider02.4b8c4f8cfa6e5a9c8094.png",
@@ -32,11 +32,11 @@
     "static/media/closed.svg": "/coke/static/media/closed.6c9a4ba71a333be7b021.svg",
     "static/media/play.svg": "/coke/static/media/play.7c595cc952560306ed09.svg",
     "main.d08d6e1e.css.map": "/coke/static/css/main.d08d6e1e.css.map",
-    "main.5b3104a0.js.map": "/coke/static/js/main.5b3104a0.js.map",
+    "main.76c48116.js.map": "/coke/static/js/main.76c48116.js.map",
     "453.4c81c6eb.chunk.js.map": "/coke/static/js/453.4c81c6eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d08d6e1e.css",
-    "static/js/main.5b3104a0.js"
+    "static/js/main.76c48116.js"
   ]
 }
