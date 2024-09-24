@@ -8,7 +8,7 @@ function BrandList({item}){
                 <ul className="brands_list">
                     {item.map((brands)=>
                         <li key={brands.id}>
-                            <Link to={`/brand/detail/${brands.id}`}>
+                            <Link to={process.env.PUBLIC_URL+`/brand/detail/${brands.id}`}>
                                 <div className="brand">
                                     <img src={`/images/brand/${brands.img}`} alt={brands.name} />
                                 </div>
