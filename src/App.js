@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import './App.css';
 import RootLayout from './components/RootLayout';
@@ -16,18 +15,18 @@ import SearchResults from './components/main/SearchResults';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route element={<RootLayout />} basename="/coke"> 
+    <Route element={<RootLayout />} basename={process.env.PUBLIC_URL}> 
       <Route path='/' element={<Home/>} />
       <Route path="/search" element={<SearchBox />} />
       <Route path="/result/:id" element={<SearchResults />} />
       <Route path="brand" element={<Brand />}>
       <Route path="detail/:id" element={<Detail />} />
       </Route>
-      <Route path="company" element={<Since />} />
+      <Route path="company" element={<Company />} />
       <Route path="since" element={<Since />} />
       <Route path="story" element={<Story />} />
       <Route path="social" element={<Sustain />} />
-      <Route path="sustainability" element={<Sustain />} />
+      <Route path="sustainability" element={<SocialValue />} />
       <Route path="*" element={<Notfound />} />
     </Route>
   )
