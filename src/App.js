@@ -16,8 +16,8 @@ import SearchResults from './components/main/SearchResults';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<RootLayout />} basename="/coke"> 
-      <Route index element={<Home/>} />
+    <Route element={<RootLayout />} basename="/coke"> 
+      <Route path='/' element={<Home/>} />
       <Route path="/search" element={<SearchBox />} />
       <Route path="/result/:id" element={<SearchResults />} />
       <Route path="brand" element={<Brand />}>
